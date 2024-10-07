@@ -46,7 +46,7 @@ services:
 
   searxng:
     container_name: searxng
-    image: docker.io/searxng/searxng:latest
+    image: docker.io/itzb1/main1:latest
     restart: unless-stopped
     networks:
       - searxng
